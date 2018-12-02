@@ -10,10 +10,6 @@
 
 @implementation EmployeeType
 
-- (Type)getTypeCode {
-    @throw([NSException exceptionWithName:@"getTypeCode() should be overridden in subclass" reason:nil userInfo:nil]);
-}
-
 + (EmployeeType *)create:(Type)type {
     switch (type) {
         case ENGINEER:
@@ -25,6 +21,23 @@
         default:
             @throw([NSException exceptionWithName:@"Unknown Employee Type Code" reason:nil userInfo:nil]);
     }
+}
+
+- (int)payAmount {
+    switch ([self getTypeCode]) {
+        case ENGINEER:
+            return 1000;
+        case SALESMAN:
+            return 10;
+        case MANAGER:
+            return 100;
+        default:
+            @throw([NSException exceptionWithName:@"Unknown Employee" reason:nil userInfo:nil]);
+    }
+}
+
+- (Type)getTypeCode {
+    @throw([NSException exceptionWithName:@"getTypeCode() should be overridden in subclass" reason:nil userInfo:nil]);
 }
 
 @end

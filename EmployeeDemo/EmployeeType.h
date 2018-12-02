@@ -4,12 +4,17 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Employee.h"
+
+typedef enum EmployeeTypes {
+    ENGINEER = 0,
+    SALESMAN = 1,
+    MANAGER = 2
+} Type;
 
 @interface EmployeeType : NSObject
 
-- (Type)getTypeCode;
-
 + (EmployeeType *)create:(Type)type;
+
+- (int)payAmount;
 
 @end

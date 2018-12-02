@@ -4,7 +4,6 @@
 //
 
 #import "Employee.h"
-#import "EmployeeType.h"
 
 @implementation Employee {
     EmployeeType *employeeType;
@@ -23,20 +22,7 @@
 }
 
 - (int)payAmount {
-    switch ([self getTypeCode]) {
-        case ENGINEER:
-            return 1000;
-        case SALESMAN:
-            return 10;
-        case MANAGER:
-            return 100;
-        default:
-            @throw([NSException exceptionWithName:@"Unknown Employee" reason:nil userInfo:nil]);
-    }
-}
-
-- (Type)getTypeCode {
-    return [employeeType getTypeCode];
+    return [employeeType payAmount];
 }
 
 @end
