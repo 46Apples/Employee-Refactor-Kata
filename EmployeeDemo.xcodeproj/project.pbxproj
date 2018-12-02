@@ -21,6 +21,7 @@
 		A6C3C79247FC449F4A21B05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C3C59A93DDC539F55A4610 /* Assets.xcassets */; };
 		A6C3C8CBFD3E7234F3669262 /* Salesman.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3C88F6DDCF2A265B3AEC8 /* Salesman.m */; };
 		A6C3CB6CFB4E951B654E48A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3C16FCB74F3A6FA09E756 /* main.m */; };
+		A6C3CC654C10615C35AFB6E2 /* Developer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3CAD333F0D8F0E10AC360 /* Developer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		04C8F6601BCA6B2E82A5FB18 /* libPods-EmployeeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmployeeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		126068867484593042C1A276 /* libPods-EmployeeDemo-EmployeeDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmployeeDemo-EmployeeDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75ECF13AEB7176ACEC025A22 /* Pods-EmployeeDemo-EmployeeDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeDemo-EmployeeDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmployeeDemo-EmployeeDemoTests/Pods-EmployeeDemo-EmployeeDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C3C044B965EB903C6EBF9B /* Developer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Developer.h; sourceTree = "<group>"; };
 		A6C3C080DA7F2A94A348A31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6C3C0F52B8901A30A79B89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		A6C3C110AA5DDD5B1A4A9B64 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		A6C3CA3711216D756409086E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6C3CA4474E5F2E8182EC5BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A6C3CA8743A7A6A70533A65A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6C3CAD333F0D8F0E10AC360 /* Developer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Developer.m; sourceTree = "<group>"; };
 		A6C3CD3C49384B61535BAEEF /* Engineer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engineer.h; sourceTree = "<group>"; };
 		A6C3CE9986191FA00A819DF5 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
 		A6C3CF82206527388F267D3E /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				A6C3C2751FA133913A5B7603 /* Salesman.h */,
 				A6C3C110AA5DDD5B1A4A9B64 /* Manager.m */,
 				A6C3CE9986191FA00A819DF5 /* Manager.h */,
+				A6C3CAD333F0D8F0E10AC360 /* Developer.m */,
+				A6C3C044B965EB903C6EBF9B /* Developer.h */,
 			);
 			path = EmployeeDemo;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				A6C3C60EBC7DC44C10907B02 /* Engineer.m in Sources */,
 				A6C3C8CBFD3E7234F3669262 /* Salesman.m in Sources */,
 				A6C3C76058E18F701CE739DD /* Manager.m in Sources */,
+				A6C3CC654C10615C35AFB6E2 /* Developer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

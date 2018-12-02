@@ -7,6 +7,7 @@
 #import "Engineer.h"
 #import "Salesman.h"
 #import "Manager.h"
+#import "Developer.h"
 
 @implementation EmployeeType
 
@@ -18,6 +19,8 @@
             return [Salesman new];
         case MANAGER:
             return [Manager new];
+        case DEVELOPER:
+            return [Developer new];
         default:
             @throw([NSException exceptionWithName:@"Unknown Employee Type Code" reason:nil userInfo:nil]);
     }

@@ -46,4 +46,12 @@
     XCTAssertEqual(100, actual);
 }
 
+- (void)testDeveloperIsPaid1000000 {
+    Employee *employee = [[Employee alloc] initWithType:DEVELOPER];
+
+    int actual = [employee payAmount];
+
+    XCTAssertEqual(1000000, actual);
+}
+
 @end
