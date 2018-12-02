@@ -13,14 +13,18 @@
 
 - (instancetype)initWithType:(Type)type {
     if (self = [super init]) {
-        self.type = type;
+        [self setTypeCode:type];
     }
 
     return self;
 }
 
+- (void)setTypeCode:(Type)type {
+    self.type = type;
+}
+
 - (int)payAmount {
-    switch (self.type) {
+    switch ([self getTypeCode]) {
         case ENGINEER:
             return 1000;
         case SALESMAN:
@@ -30,6 +34,10 @@
         default:
             @throw([NSException exceptionWithName:@"Unknown Employee" reason:nil userInfo:nil]);
     }
+}
+
+- (Type)getTypeCode {
+    return self.type;
 }
 
 @end
