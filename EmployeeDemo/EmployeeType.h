@@ -10,4 +10,6 @@
 
 - (Type)getTypeCode;
 
++ (EmployeeType *)create:(Type)type;
+
 @end

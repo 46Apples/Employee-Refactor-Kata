@@ -4,11 +4,27 @@
 //
 
 #import "EmployeeType.h"
+#import "Engineer.h"
+#import "Salesman.h"
+#import "Manager.h"
 
 @implementation EmployeeType
 
 - (Type)getTypeCode {
     @throw([NSException exceptionWithName:@"getTypeCode() should be overridden in subclass" reason:nil userInfo:nil]);
+}
+
++ (EmployeeType *)create:(Type)type {
+    switch (type) {
+        case ENGINEER:
+            return [Engineer new];
+        case SALESMAN:
+            return [Salesman new];
+        case MANAGER:
+            return [Manager new];
+        default:
+            @throw([NSException exceptionWithName:@"Unknown Employee Type Code" reason:nil userInfo:nil]);
+    }
 }
 
 @end
