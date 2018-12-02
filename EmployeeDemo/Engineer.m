@@ -7,8 +7,8 @@
 
 @implementation Engineer
 
-- (Type)getTypeCode {
-    return ENGINEER;
+- (int)payAmount {
+    return 1000;
 }
 
 @end

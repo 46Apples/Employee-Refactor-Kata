@@ -7,8 +7,8 @@
 
 @implementation Manager
 
-- (Type)getTypeCode {
-    return MANAGER;
+- (int)payAmount {
+    return 100;
 }
 
 @end
