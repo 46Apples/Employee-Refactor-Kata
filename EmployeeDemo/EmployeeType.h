@@ -8,7 +8,8 @@
 typedef enum EmployeeTypes {
     ENGINEER = 0,
     SALESMAN = 1,
-    MANAGER = 2
+    MANAGER = 2,
+    DEVELOPER = 3
 } Type;
 
 @interface EmployeeType : NSObject
