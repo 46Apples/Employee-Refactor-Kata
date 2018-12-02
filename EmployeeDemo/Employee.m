@@ -4,12 +4,14 @@
 //
 
 #import "Employee.h"
+#import "EmployeeType.h"
+#import "Engineer.h"
+#import "Salesman.h"
+#import "Manager.h"
 
-@interface Employee ()
-@property(nonatomic, assign) Type type;
-@end
-
-@implementation Employee
+@implementation Employee {
+    EmployeeType *employeeType;
+}
 
 - (instancetype)initWithType:(Type)type {
     if (self = [super init]) {
@@ -20,7 +22,19 @@
 }
 
 - (void)setTypeCode:(Type)type {
-    self.type = type;
+    switch (type) {
+        case ENGINEER:
+            employeeType = [Engineer new];
+            break;
+        case SALESMAN:
+            employeeType = [Salesman new];
+            break;
+        case MANAGER:
+            employeeType = [Manager new];
+            break;
+        default:
+            @throw([NSException exceptionWithName:@"Unknown Employee Type Code" reason:nil userInfo:nil]);
+    }
 }
 
 - (int)payAmount {
@@ -37,7 +51,7 @@
 }
 
 - (Type)getTypeCode {
-    return self.type;
+    return [employeeType getTypeCode];
 }
 
 @end

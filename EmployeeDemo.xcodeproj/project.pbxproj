@@ -14,8 +14,12 @@
 		A6C3C4C84A080DD9DEFCD4E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3CA33F367457C230AB6C3 /* ViewController.m */; };
 		A6C3C54DA4EF3352DA1A200E /* EmployeeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3C7640659425B22791B7C /* EmployeeDemoTests.m */; };
 		A6C3C5540E842183E4AD9CA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3CA4474E5F2E8182EC5BA /* AppDelegate.m */; };
+		A6C3C56439E4A4AC3F52DFBD /* EmployeeType.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3CFF1D0CBD34B2E5725C0 /* EmployeeType.m */; };
+		A6C3C60EBC7DC44C10907B02 /* Engineer.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3CA2C210E77F030316C65 /* Engineer.m */; };
 		A6C3C66C91B0A8F9B16CD77A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C3CD1CFA5D0CA12A13CBA6 /* LaunchScreen.storyboard */; };
+		A6C3C76058E18F701CE739DD /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3C110AA5DDD5B1A4A9B64 /* Manager.m */; };
 		A6C3C79247FC449F4A21B05E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C3C59A93DDC539F55A4610 /* Assets.xcassets */; };
+		A6C3C8CBFD3E7234F3669262 /* Salesman.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3C88F6DDCF2A265B3AEC8 /* Salesman.m */; };
 		A6C3CB6CFB4E951B654E48A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C3C16FCB74F3A6FA09E756 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -35,19 +39,27 @@
 		75ECF13AEB7176ACEC025A22 /* Pods-EmployeeDemo-EmployeeDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeDemo-EmployeeDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmployeeDemo-EmployeeDemoTests/Pods-EmployeeDemo-EmployeeDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6C3C080DA7F2A94A348A31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6C3C0F52B8901A30A79B89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		A6C3C110AA5DDD5B1A4A9B64 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 		A6C3C16FCB74F3A6FA09E756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6C3C1B48043CF5E353500B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		A6C3C2751FA133913A5B7603 /* Salesman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Salesman.h; sourceTree = "<group>"; };
+		A6C3C3ED55CED6E560B5B1AE /* EmployeeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeType.h; sourceTree = "<group>"; };
 		A6C3C4CD6F7D0C2F554AF5D2 /* EmployeeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C3C4F310EF6FEAC4E486A1 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 		A6C3C59A93DDC539F55A4610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6C3C5BA3AD1033F892EA14E /* EmployeeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C3C7640659425B22791B7C /* EmployeeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeDemoTests.m; sourceTree = "<group>"; };
+		A6C3C88F6DDCF2A265B3AEC8 /* Salesman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Salesman.m; sourceTree = "<group>"; };
 		A6C3C9914C602A97422ED0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6C3CA2C210E77F030316C65 /* Engineer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engineer.m; sourceTree = "<group>"; };
 		A6C3CA33F367457C230AB6C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A6C3CA3711216D756409086E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6C3CA4474E5F2E8182EC5BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A6C3CA8743A7A6A70533A65A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6C3CD3C49384B61535BAEEF /* Engineer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engineer.h; sourceTree = "<group>"; };
+		A6C3CE9986191FA00A819DF5 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
 		A6C3CF82206527388F267D3E /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		A6C3CFF1D0CBD34B2E5725C0 /* EmployeeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeType.m; sourceTree = "<group>"; };
 		AAE54083CF61EDDE667BCC5E /* Pods-EmployeeDemo-EmployeeDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeDemo-EmployeeDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmployeeDemo-EmployeeDemoTests/Pods-EmployeeDemo-EmployeeDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB5034DACCB7F50113D954F8 /* Pods-EmployeeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmployeeDemo/Pods-EmployeeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F51200A66F689341410F03B1 /* Pods-EmployeeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmployeeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmployeeDemo/Pods-EmployeeDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +108,14 @@
 				A6C3CA33F367457C230AB6C3 /* ViewController.m */,
 				A6C3CF82206527388F267D3E /* Employee.h */,
 				A6C3C4F310EF6FEAC4E486A1 /* Employee.m */,
+				A6C3CFF1D0CBD34B2E5725C0 /* EmployeeType.m */,
+				A6C3C3ED55CED6E560B5B1AE /* EmployeeType.h */,
+				A6C3CA2C210E77F030316C65 /* Engineer.m */,
+				A6C3CD3C49384B61535BAEEF /* Engineer.h */,
+				A6C3C88F6DDCF2A265B3AEC8 /* Salesman.m */,
+				A6C3C2751FA133913A5B7603 /* Salesman.h */,
+				A6C3C110AA5DDD5B1A4A9B64 /* Manager.m */,
+				A6C3CE9986191FA00A819DF5 /* Manager.h */,
 			);
 			path = EmployeeDemo;
 			sourceTree = "<group>";
@@ -346,6 +366,10 @@
 				A6C3C5540E842183E4AD9CA2 /* AppDelegate.m in Sources */,
 				A6C3C4C84A080DD9DEFCD4E1 /* ViewController.m in Sources */,
 				A6C3C47D932FE695789A4328 /* Employee.m in Sources */,
+				A6C3C56439E4A4AC3F52DFBD /* EmployeeType.m in Sources */,
+				A6C3C60EBC7DC44C10907B02 /* Engineer.m in Sources */,
+				A6C3C8CBFD3E7234F3669262 /* Salesman.m in Sources */,
+				A6C3C76058E18F701CE739DD /* Manager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
